@@ -35,25 +35,25 @@ void frame_str(string s)
 
 void hallow_box(int n, int m)
 {
-     for(int row=0; row<n; row++)
-  	{
-			for(int col= 0; col<m; col++)
-			{
-			    cout<< (((row==0||row==n-1)||(col==0||col==m-1))?"X":" ");
-            }
-			cout<<endl;
-		}
+    for(int row=0; row<n; row++)
+    {
+        for(int col= 0; col<m; col++)
+        {
+            cout<< (((row==0||row==n-1)||(col==0||col==m-1))?"X":" ");
+        }
+        cout<<endl;
+    }
 
 }
 
 void box(int n, int m)
 {
     for(int row=0; row<n; row++)
-		{
-			for(int col= 0; col<m; col++)
-			{
-			    cout<<"X";
-            }
-			cout<<endl;
-		}
+    {
+        for(int col= 0; col<m; col++)
+        {
+            cout<<"X";
+        }
+        cout<<endl;
+    }
 }
